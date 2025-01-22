@@ -1,6 +1,7 @@
 import logo from './logo.svg'
 import './App.css'
-const comment = `<script> console.log("send token") </script>`
+
+const element = <h1>Hello world</h1>
 
 function App() {
   return (
@@ -8,7 +9,6 @@ function App() {
       <h1>Create by Nhien</h1>
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-        {comment}
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
