@@ -11,14 +11,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 <App />
 </React.StrictMode> */
 
-// const element = <Welcome name='Nhien' />
-const element = (
-  <div>
-    <Welcome name='Nhien' age={26} />
-    <Welcome name='Nam' age={27} />
-    <Welcome name='Hoa' age={28} />
-  </div>
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 )
-root.render(element)
 
 reportWebVitals()
