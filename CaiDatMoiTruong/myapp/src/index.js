@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 </React.StrictMode> */
 
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode>
+  <App />
+  // </React.StrictMode>
 )
 
 reportWebVitals()
