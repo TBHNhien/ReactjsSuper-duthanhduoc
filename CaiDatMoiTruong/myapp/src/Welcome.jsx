@@ -4,7 +4,7 @@ import React from 'react'
 function Welcome(props) {
   console.log(props)
   return (
-    <h1>
+    <h1 {...props}>
       Hello, {props.name} - {props.age}
     </h1>
   )
