@@ -3,6 +3,7 @@ import BareInput from './BareInput'
 import Clock from './Clock'
 import { useState } from 'react'
 import Layout from './Layout'
+import BareButton from './BareButton'
 
 function App() {
   // const [name, setName] = useState('Casio')
@@ -16,6 +17,7 @@ function App() {
       <Layout>
         <h1>HELLO</h1>
         <BareInput type={'password'} value='nhien' autoFocus className='input-control' onChange={() => {}} />
+        <BareButton />
       </Layout>
     </div>
   )
