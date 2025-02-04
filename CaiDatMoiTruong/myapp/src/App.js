@@ -4,6 +4,7 @@ import Clock from './Clock'
 import { useState } from 'react'
 import Layout from './Layout'
 import BareButton from './BareButton'
+import LoginControl from './LoginControl'
 
 function App() {
   // const [name, setName] = useState('Casio')
@@ -14,11 +15,12 @@ function App() {
       {/* <button onClick={() => setName('Apple')}>Change name</button>
       <button onClick={() => setVisible(false)}>Hide Clock component</button>
       {visible && <Clock name={name}></Clock>} */}
-      <Layout>
+      {/* <Layout>
         <h1>HELLO</h1>
         <BareInput type={'password'} value='nhien' autoFocus className='input-control' onChange={() => {}} />
         <BareButton />
-      </Layout>
+      </Layout> */}
+      <LoginControl hidden={false} />
     </div>
   )
 }
