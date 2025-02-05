@@ -1,10 +1,11 @@
 import './App.css'
-import BareInput from './BareInput'
-import Clock from './Clock'
-import { useState } from 'react'
-import Layout from './Layout'
-import BareButton from './BareButton'
-import LoginControl from './LoginControl'
+// import BareInput from './BareInput'
+// import Clock from './Clock'
+// import { useState } from 'react'
+// import Layout from './Layout'
+// import BareButton from './BareButton'
+// import LoginControl from './LoginControl'
+import CorrectlyState from './CorrectlyState'
 
 function App() {
   // const [name, setName] = useState('Casio')
@@ -20,7 +21,8 @@ function App() {
         <BareInput type={'password'} value='nhien' autoFocus className='input-control' onChange={() => {}} />
         <BareButton />
       </Layout> */}
-      <LoginControl hidden={false} />
+      {/* <LoginControl hidden={false} /> */}
+      <CorrectlyState />
     </div>
   )
 }
