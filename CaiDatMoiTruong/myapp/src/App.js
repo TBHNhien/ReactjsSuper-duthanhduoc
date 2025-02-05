@@ -5,7 +5,8 @@ import './App.css'
 // import Layout from './Layout'
 // import BareButton from './BareButton'
 // import LoginControl from './LoginControl'
-import CorrectlyState from './CorrectlyState'
+// import CorrectlyState from './CorrectlyState'
+import ProductList from './ProductList/ProductList'
 
 function App() {
   // const [name, setName] = useState('Casio')
@@ -22,7 +23,8 @@ function App() {
         <BareButton />
       </Layout> */}
       {/* <LoginControl hidden={false} /> */}
-      <CorrectlyState />
+      {/* <CorrectlyState /> */}
+      <ProductList />
     </div>
   )
 }
