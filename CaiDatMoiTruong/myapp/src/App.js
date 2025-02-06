@@ -1,4 +1,5 @@
 import './App.css'
+import Form from './form/Form'
 // import BareInput from './BareInput'
 // import Clock from './Clock'
 // import { useState } from 'react'
@@ -6,7 +7,7 @@ import './App.css'
 // import BareButton from './BareButton'
 // import LoginControl from './LoginControl'
 // import CorrectlyState from './CorrectlyState'
-import ProductList from './ProductList/ProductList'
+// import ProductList from './ProductList/ProductList'
 
 function App() {
   // const [name, setName] = useState('Casio')
@@ -24,7 +25,8 @@ function App() {
       </Layout> */}
       {/* <LoginControl hidden={false} /> */}
       {/* <CorrectlyState /> */}
-      <ProductList />
+      {/* <ProductList /> */}
+      <Form />
     </div>
   )
 }
