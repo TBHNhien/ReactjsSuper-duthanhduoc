@@ -1,5 +1,6 @@
 import './App.css'
-import Form from './form/Form'
+import UncontrolledComponent from './form/UncontrolledComponent'
+// import Form from './form/Form'
 // import BareInput from './BareInput'
 // import Clock from './Clock'
 // import { useState } from 'react'
@@ -26,7 +27,8 @@ function App() {
       {/* <LoginControl hidden={false} /> */}
       {/* <CorrectlyState /> */}
       {/* <ProductList /> */}
-      <Form />
+      {/* <Form /> */}
+      <UncontrolledComponent />
     </div>
   )
 }
