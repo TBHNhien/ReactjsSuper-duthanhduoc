@@ -1,5 +1,6 @@
 import './App.css'
-import UncontrolledComponent from './form/UncontrolledComponent'
+import Calculator from './Calculator/Calculator'
+// import UncontrolledComponent from './form/UncontrolledComponent'
 // import Form from './form/Form'
 // import BareInput from './BareInput'
 // import Clock from './Clock'
@@ -28,7 +29,8 @@ function App() {
       {/* <CorrectlyState /> */}
       {/* <ProductList /> */}
       {/* <Form /> */}
-      <UncontrolledComponent />
+      {/* <UncontrolledComponent /> */}
+      <Calculator />
     </div>
   )
 }
