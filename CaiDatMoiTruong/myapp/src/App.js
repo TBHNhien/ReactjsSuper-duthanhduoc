@@ -1,5 +1,7 @@
 import './App.css'
-import Calculator from './Calculator/Calculator'
+import Composition from './CompositionvsInheritance/Composition'
+// import Inheritance from './CompositionvsInheritance/Inheritance'
+// import Calculator from './Calculator/Calculator'
 // import UncontrolledComponent from './form/UncontrolledComponent'
 // import Form from './form/Form'
 // import BareInput from './BareInput'
@@ -30,7 +32,9 @@ function App() {
       {/* <ProductList /> */}
       {/* <Form /> */}
       {/* <UncontrolledComponent /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      {/* <Inheritance /> */}
+      <Composition />
     </div>
   )
 }
