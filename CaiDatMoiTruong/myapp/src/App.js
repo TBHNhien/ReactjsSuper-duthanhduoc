@@ -1,5 +1,6 @@
 import './App.css'
-import Composition from './CompositionvsInheritance/Composition'
+import FilterableProductTable from './ThinkingInReact/FilterableProductTable'
+// import Composition from './CompositionvsInheritance/Composition'
 // import Inheritance from './CompositionvsInheritance/Inheritance'
 // import Calculator from './Calculator/Calculator'
 // import UncontrolledComponent from './form/UncontrolledComponent'
@@ -34,7 +35,8 @@ function App() {
       {/* <UncontrolledComponent /> */}
       {/* <Calculator /> */}
       {/* <Inheritance /> */}
-      <Composition />
+      {/* <Composition /> */}
+      <FilterableProductTable />
     </div>
   )
 }
