@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='App'>
       <ProductList />
-      <Cart />
+      <Cart isShow={true} />
     </div>
   )
 }
