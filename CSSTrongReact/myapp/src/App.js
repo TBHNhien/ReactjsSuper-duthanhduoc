@@ -1,6 +1,8 @@
 import './App.css'
-import Cart from './Cart'
-import ProductList from './ProductList'
+import User from './User'
+// import Cart from './Cart'
+// import ProductList from './ProductList'
+import UserClassComponent from './User.class'
 
 function App() {
   // const [name, setName] = useState('Casio')
@@ -8,8 +10,8 @@ function App() {
 
   return (
     <div className='App'>
-      <ProductList />
-      <Cart isShow={true} />
+      <UserClassComponent />
+      <User />
     </div>
   )
 }
