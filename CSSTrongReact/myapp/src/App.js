@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import User from './User'
+import RuleOfHook from './ruleOfHook'
 // import Cart from './Cart'
 // import ProductList from './ProductList'
 // import UserClassComponent from './User.class'
@@ -11,8 +12,9 @@ function App() {
   const [isShow, setIsShow] = useState(true)
   return (
     <div className='App'>
-      {isShow && <User />}
-      <button onClick={() => setIsShow((prevState) => !prevState)}>Change isShow</button>
+      {/* {isShow && <User />}
+      <button onClick={() => setIsShow((prevState) => !prevState)}>Change isShow</button> */}
+      <RuleOfHook />
     </div>
   )
 }
